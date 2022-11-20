@@ -1,0 +1,32 @@
+data_obj = {
+    "wheel_1": {
+      "url": "./images/wgu.png",
+      "title": "17-INCH CAST ALUMINUM WHEEL,FULLY PAINTED SILVER LITHO",
+      "description": "standard on Touring FWD",
+      "type": "(WGU)"
+    },
+    "wheel_2": {
+      "url": "./images/wjr.png",
+      "title": "17-inch cast aluminium diamond-cut wheel with baltic bray pockets",
+      "description": "standard on touring L FWD/hybrid and touring hybrid ",
+      "type": "(WJR)"
+    },
+    "wheel_3": {
+      "url": "./images/wp6.png",
+      "title": "18-Inch cast aluminium wheel with foreshadow finish",
+      "description": "included with s appearance packing on touring hybrid ",
+      "type": "(WP6)"
+    },
+    "wheel_4": {
+      "url": "./images/wpf.png",
+      "title": "16-Inch cast aluminium wheel with forshadow finish",
+      "description": "standard on touring l FWD/hybrid and touring hybrid ",
+      "type": "(WPF)"
+    },
+    "wheel_5": {
+      "url": "./images/wjr.png",
+      "title": "17-inch cast aluminium diamond-cut wheel with baltic bray pockets",
+      "description": "standard on touring L FWD/hybrid and touring hybrid ",
+      "type": "(WJR)"
+    }
+  }

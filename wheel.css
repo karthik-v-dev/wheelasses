@@ -22,7 +22,7 @@ body {
   margin-inline-end: 20px !important;
   color: rgb(116, 116, 116);
   text-align: justify;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 h4,h5{
     text-transform: uppercase;
@@ -47,11 +47,11 @@ ul li {
   list-style-type: none;
   text-align: center;
   z-index: 0;
-  padding-top: 43px;
+  padding:43px 5px 0px 5px;
   transition: 1s ease-in-out all;
 }
 .slider ul li .slide-imgbox {
-  width:414px;
+  width:400px;
   height: 440px;
 }
 
@@ -61,28 +61,43 @@ ul li {
   height: auto;
   transition: 0.5s all ease-in-out;
 }
-.slide-imgbox:hover {
+/* .slide-imgbox:hover {
   background: url("./images/wheel-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   outline: 2px solid #ccc;
   outline-offset: -2px;
-}
+} */
+ .slide-imgbox_onclick {
+  background: url("./images/wheel-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: 2px solid #ccc;
+  outline-offset: -2px;
+} 
 
-.slide-imgbox:hover img {
+/* .slide-imgbox:hover img {
   transform: scale(1.2);
-}
+} */
+.slide-imgbox_onclick  img {
+  transform: scale(1.2);
+} 
 .set-ani {
   text-align: center;
   max-width: 70%;
   padding: 10px 15% 0px;
-  transition: padding-top 500ms ease;
+  transition: 0.5s ease;
 }
-.slide-imgbox:hover .set-ani {
+.slide-imgbox_onclick  .set_ani_click {
   text-align: center;
-  padding: 25px 15% 0px;
-}
+  padding-top: 25px;
+} 
+/* .slide-imgbox:hover .set-ani {
+  text-align: center;
+  padding-top: 25px;
+} */
 
 .prev-button {
   float: left;
